@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorVeryLightGreen"
+    tools:context=".UserActivity.SettingsActivity">
+
+    <include
+        android:id="@+id/settings_toolbar"
+        layout="@layout/app_toolbar"/>
+
+    <ImageView
+        android:id="@+id/settings_iv_propic"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:background="@color/colorVeryLightGreen"
+        android:src="@drawable/duniya"
+        android:layout_marginTop="60dp"
+        android:layout_marginStart="20dp"
+        android:layout_below="@+id/settings_toolbar"/>
+
+    <TextView
+        android:id="@+id/settings_tv_display_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Display Name"
+        android:textSize="30sp"
+        android:textStyle="italic"
+        android:layout_below="@+id/settings_iv_propic"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"/>
+
+    <EditText
+        android:id="@+id/settings_et_display_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:layout_below="@+id/settings_iv_propic"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        android:inputType="textPersonName"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id="@+id/settings_tv_about"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hey there, I'm using Lip Chat"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:layout_below="@+id/settings_tv_display_name"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"/>
+
+    <EditText
+        android:id="@+id/settings_et_about"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_below="@+id/settings_tv_display_name"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        android:inputType="textPersonName"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:id="@+id/settings_iv_name_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_edit"
+        android:layout_alignTop="@+id/settings_tv_display_name"
+        android:layout_marginRight="40dp"
+        android:layout_alignParentEnd="true"/>
+
+    <ImageView
+        android:id="@+id/settings_iv_about_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/settings_tv_about"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="40dp"
+        android:src="@drawable/ic_edit" />
+
+    <Button
+        android:id="@+id/settings_btn_save_changes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save Changes"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/settings_tv_about"
+        android:layout_marginTop="30dp"/>
+
+</RelativeLayout>

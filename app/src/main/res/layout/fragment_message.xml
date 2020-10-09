@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorLightCreamy"
+    tools:context=".MessageActivity.MessageFragment">
+
+    <include
+        android:id="@+id/msgf_toolbar"
+        layout="@layout/app_toolbar"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/msg_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/msgf_toolbar"
+        android:layout_above="@+id/msg_linear_layout"
+
+        android:layout_marginEnd="0dp"/>
+
+    <RelativeLayout
+        android:id="@+id/msg_linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="5dp"
+        android:padding="10dp">
+
+        <EditText
+            android:id="@+id/msg_et_enter_message"
+            android:layout_width="260dp"
+            android:layout_height="50dp"
+            android:background="@color/colorDarkGray"
+            android:hint="Enter Message"
+            android:textSize="20sp"
+            android:layout_marginBottom="10dp"
+            android:padding="10dp"/>
+
+        <TextView
+            android:id="@+id/msg_tv_add_file"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:text="+"
+            android:background="@color/colorDarkGray"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:layout_toRightOf="@id/msg_et_enter_message"
+            android:layout_marginTop="0dp"
+            android:layout_marginStart="5dp"/>
+
+        <ImageView
+            android:id="@+id/msg_iv_send"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:background="@color/colorDarkGray"
+            android:layout_toRightOf="@+id/msg_tv_add_file"
+            android:layout_marginTop="0dp"
+            android:layout_marginStart="5dp"
+            android:src="@drawable/ic_send" />
+
+    </RelativeLayout>
+</RelativeLayout>

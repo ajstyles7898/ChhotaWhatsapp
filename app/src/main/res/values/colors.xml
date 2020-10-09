@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#66AAFF</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="colorBlack">#000000</color>
+    <color name="colorVeryDarkGray">#888888</color>
+    <color name="colorDarkGray">#BBBBBB</color>
+    <color name="colorGray">#CCCCCC</color>
+    <color name="colorLightGray">#DDDDDD</color>
+    <color name="colorVeryLightGray">#EEEEEE</color>
+    <color name="colorWhite">#FFFFFF</color>
+
+    <color name="colorLightPink">#FFDDFF</color>
+    <color name="colorPink">#FFAADD</color>
+
+    <color name="colorBlue">#2266FF</color>
+    <color name="colorLightBlue">#4488FF</color>
+    <color name="colorVeryLightBlue">#66AAFF</color>
+    <color name="colorExtremelyLightBlue">#99CCFF</color>
+
+    <color name="colorLightBrown">#883311</color>
+    <color name="colorVeryLightBrown">#AA5533</color>
+
+    <color name="colorDarkCreamy">#FFCC77</color>
+    <color name="colorCreamy">#FFDD90</color>
+    <color name="colorLightCreamy">#FFEEAA</color>
+    <color name="colorVeryLightCreamy">#FFF0CC</color>
+
+    <color name="colorYellow">#FFFF00</color>
+    <color name="colorLightYellow">#DDFF66</color>
+
+    <color name="colorRed">#FF0000</color>
+
+    <color name="colorGreen">#00FF00</color>
+    <color name="colorDarkGreen">#00BB44</color>
+    <color name="colorLightGreen">#66FF66</color>
+    <color name="colorVeryLightGreen">#AAFFAA</color>
+    <color name="colorLemonGreen">#99FF00</color>
+    <color name="colorWhatsAppGreen">#88FF88</color>
+
+    <color name="colorPurple">#6600AA</color>
+    <color name="colorLightPurple">#9900FF</color>
+
+
+
+</resources>

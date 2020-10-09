@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="40dp">
+
+    <LinearLayout
+        android:id="@+id/msg_item_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/colorWhatsAppGreen"
+        android:layout_gravity="end"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:tag="item">
+
+        <TextView
+            android:id="@+id/msg_item_message"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textSize="18sp"
+            android:text="ajay"
+            android:textColor="@color/colorBlack"
+            android:layout_marginLeft="5dp"
+            android:tag="item"/>
+
+        <TextView
+            android:id="@+id/msg_item_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="karera"
+            android:textSize="12sp"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="5dp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

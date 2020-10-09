@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "568664482817",
+    "firebase_url": "https://chhotawhatsappproject.firebaseio.com",
+    "project_id": "chhotawhatsappproject",
+    "storage_bucket": "chhotawhatsappproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:568664482817:android:4f9a0874876541fa6f8c00",
+        "android_client_info": {
+          "package_name": "com.example.chhotawhatsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "568664482817-ig2fu8v6jl744mnnb2207ucgv4qac3sv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.chhotawhatsapp",
+            "certificate_hash": "e8613289e5326839f5176adbd69dd7ce0c24b141"
+          }
+        },
+        {
+          "client_id": "568664482817-1j8egu1cu6bn5f1kp2q789sojoncaluf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJNlu6cnvkl0-0nS9PTjyscEey_dnhJ9w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "568664482817-1j8egu1cu6bn5f1kp2q789sojoncaluf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
